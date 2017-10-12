@@ -8,4 +8,4 @@ USER root
 RUN apk add --update --no-cache ruby ruby-dev \
   && rm -rf /var/cache/apk/* \
   && gem install --no-ri --no-rdoc specific_install \
-  && gem specific_install https://github.com/Adyax/docman.git develop
+  && gem specific_install https://github.com/michael-molchanov/docman.git develop
