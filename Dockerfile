@@ -7,4 +7,4 @@ USER root
 # Install docman.
 RUN apk add --update --no-cache ruby ruby-dev \
   && rm -rf /var/cache/apk/* \
-  && gem install --no-ri --no-rdoc -v 0.0.105 docman
+  && gem install --no-ri --no-rdoc -v 0.0.106 docman
